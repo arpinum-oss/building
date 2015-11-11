@@ -1,0 +1,45 @@
+{
+  "name": "building",
+  "version": "0.0.1",
+  "description": "Building is a collection of helpers to enhance your favorite build tool",
+  "scripts": {
+    "pretest": "./node_modules/.bin/jshint .",
+    "test": "./node_modules/.bin/mocha --colors --reporter spec --recursive lib"
+  },
+  "repository": "arpinum-oss/building",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "author": {
+    "name": "Arpinum",
+    "url": "http://arpinum.fr"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "cross-spawn": "^2.0.0",
+    "fs-extra": "^0.22.1",
+    "glob": "^5.0.14",
+    "lodash": "^3.10.1",
+    "underscore.string": "^3.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0",
+    "temp": "^0.8.3"
+  },
+  "keywords": [
+    "build",
+    "promise",
+    "async",
+    "shell",
+    "files",
+    "script"
+  ]
+}
