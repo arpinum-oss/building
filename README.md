@@ -98,7 +98,7 @@ Execute a binary with its arguments.
 
 ### Options
 
-* `resolveLocalBin` `{Boolean}` (default: `false`) Set to `true` to resolve binary from local node_modules binary.
+* `resolveLocalBin` `{Boolean}` (default: `false`) Set to `true` to resolve binary from local `node_modules` binary.
 Example if `binary` is `jshint` and `resolveLocalBin` is `true`, the resolved binary is `./node_modules/.bin/jshint`.
 
 ## building.shell.createExecution(binary, args, [options])
