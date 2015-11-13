@@ -39,6 +39,8 @@
     "async",
     "shell",
     "files",
-    "script"
+    "script",
+    "grunt",
+    "cluck"
   ]
 }
