@@ -4,7 +4,9 @@
   "description": "Building is a collection of helpers to enhance your favorite build tool",
   "scripts": {
     "pretest": "./node_modules/.bin/jshint .",
-    "test": "./node_modules/.bin/mocha --colors --reporter spec --recursive lib"
+    "test": "./node_modules/.bin/mocha --colors --reporter spec --recursive lib",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": "arpinum-oss/building",
   "main": "index.js",
