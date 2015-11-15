@@ -1,5 +1,8 @@
 # Building [![Build Status](https://travis-ci.org/arpinum-oss/building.svg?branch=master)](https://travis-ci.org/arpinum-oss/building)
 
+> Whatever good things we build end up building us.
+> <cite>(Jim Rohn)</cite>
+
 **Building** helps you write custom tasks for your favorite build tool.
 
 ## Installation
