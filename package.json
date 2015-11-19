@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Building is a collection of helpers to enhance your favorite build tool",
   "scripts": {
-    "pretest": "./node_modules/.bin/jshint .",
+    "pretest": "./node_modules/.bin/eslint .",
     "test": "./node_modules/.bin/mocha --colors --reporter spec --recursive lib",
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
@@ -29,7 +29,8 @@
   "devDependencies": {
     "chai": "^3.2.0",
     "chai-as-promised": "^5.1.0",
-    "jshint": "^2.8.0",
+    "eslint": "^1.9.0",
+    "eslint-config-arpinum": "0.0.3",
     "mocha": "^2.2.5",
     "temp": "^0.8.3"
   },
