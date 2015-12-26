@@ -116,6 +116,10 @@ Execute a binary with its arguments.
 * `resolveLocalBin` `{Boolean}` (default: `false`) Set to `true` to resolve binary from local `node_modules` binary.
 Example if `binary` is `jshint` and `resolveLocalBin` is `true`, the resolved binary is `./node_modules/.bin/jshint`.
 
+### executeLocal(binary, args, [options])
+
+Shortcut to `execute` with `resolveLocalBin` option set to true.
+
 ### createExecution(binary, args, [options])
 
 * `binary` `{String}` The binary to execute
