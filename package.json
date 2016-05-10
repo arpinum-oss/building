@@ -1,6 +1,6 @@
 {
   "name": "building",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Building is a collection of helpers to enhance your favorite build tool",
   "scripts": {
     "pretest": "./node_modules/.bin/eslint .",
